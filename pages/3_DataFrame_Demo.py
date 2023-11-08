@@ -65,7 +65,7 @@ st.write(
 form_sr = st.form('my_form')
 nombre_negocio = form_sr.text_input('Nombre del negocio...')
 submit = form_sr.form_submit_button('Recomendar')
-recomendaciones = 'Ingese el nombre de la franquicia'
+recomendaciones = 'Ingrese el nombre de la franquicia'
 if submit:
     resultados = data_frame_demo(nombre_negocio)
     form_sr.subheader(resultados)
