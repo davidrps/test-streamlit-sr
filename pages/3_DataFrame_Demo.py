@@ -60,7 +60,7 @@ st.set_page_config(page_title="Demo Sistema de Recomendacion", page_icon="📊")
 st.markdown("# DataFrame Demo")
 st.sidebar.header("DataFrame Demo")
 st.write(
-    """Test del sistema de recomendación de restaurantes de Florida"""
+    """Test del sistema de recomendación de negocios para invertir en  Florida"""
 )
 form_sr = st.form('my_form')
 nombre_negocio = form_sr.text_input('Nombre del negocio...')
