@@ -22,7 +22,7 @@ from streamlit.hello.utils import show_code
 def data_frame_demo(nombre_negocio):
     @st.cache_data
     def get_data():
-        df = pd.read_csv("data/gmaps_results")
+        df = pd.read_csv("pages/data/gmaps_results.csv")
         return df
 
     grouped_data = get_data()
